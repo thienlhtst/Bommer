@@ -10,11 +10,11 @@ COLOR_WHITE = (255, 255, 255)
 FPS = 60.0
 MENU_BACKGROUND_COLOR = (255, 204, 204)
 MENU_TITLE_COLOR = (255,255,255)
-WINDOW_SCALE = 1
+WINDOW_SCALE = 0.1
 
 pygame.display.init()
 INFO = pygame.display.Info()
-TILE_SIZE = int(INFO.current_h * 0.035)
+TILE_SIZE = int(INFO.current_h * 0.07)
 WINDOW_SIZE = (13 * TILE_SIZE, 13 * TILE_SIZE)
 
 clock = None
